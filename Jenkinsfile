@@ -4,7 +4,7 @@ pipeline {
 
     agent {
         docker {
-            image 'dockette/nodejs'
+            image 'ubuntu-nodejs'
             args '-u root'
         }
     }
