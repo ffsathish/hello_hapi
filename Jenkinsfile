@@ -4,7 +4,7 @@ pipeline {
 
     agent {
         docker {
-            image 'ubuntu-nodejs'
+            image 'ffnode/ubuntu-nodejs'
             args '-u root'
         }
     }
